@@ -47,3 +47,21 @@ p.pop(1)
 print(p)
 # returns popped out element
 print(p.pop())
+
+#remove:to remove first instance of an item
+x=[1,2,3,4,3,5,6,7,8,9,10]
+x.remove(3)
+print(x)
+
+# reverse order of list
+x.reverse()
+print(x)
+
+# sort:
+a=[2,15,4,6]
+a.sort()
+print(a)
+
+# sorted:returns a new list original list remains same
+a=[3,2,5,6,7,1]
+print(sorted(a))
