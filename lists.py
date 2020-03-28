@@ -39,4 +39,11 @@ p.insert(3,q)
 print(p)
 
 # pop
-
+p=[1,2,3,4]
+# without index last item popped
+p.pop()
+# with index
+p.pop(1)
+print(p)
+# returns popped out element
+print(p.pop())
