@@ -9,3 +9,16 @@ print(x)
 
 x=[z**2 for z in range(10) if z>4]
 print(x)
+
+# delete item or complete list
+del(x[1])
+print(x)
+del(x)
+
+
+# append
+y=[]
+y.append(4)
+print(y)
+
+
