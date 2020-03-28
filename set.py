@@ -31,3 +31,16 @@ print(x)
 # delete all items from set x
 x.clear()
 print(x)
+
+# standard mathematical operations
+set1=()
+set2=()
+set1&set2
+set1|set2
+# symm diff
+set1^set2
+set1-set2
+# set2 contains set1
+set1<=set2
+# set1 contains set2
+set1>=set2
